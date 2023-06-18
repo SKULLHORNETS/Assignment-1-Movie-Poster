@@ -1,0 +1,99 @@
+body {
+    background-color: #0c0c0c;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.title {
+    text-align: center;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'tallfont';
+    src: url('../fonts/tallfont.ttf');
+}
+h2, h3, h4 {
+    font-family: 'tallfont', sans-serif;
+    color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+h5 {
+    font-family: 'tallfont', sans-serif;
+    align-items: center;
+    color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.slightlysmaller {
+    font-family: 'tallfont', sans-serif;
+    color: lightblue;
+    text-align: center;
+    vertical-align: top;
+    font-size: 40px;
+    margin-top: 30px;
+}
+h6 {
+    font-family: 'Noto Sans', sans-serif;
+    color: lightblue;
+    text-align: center;
+    vertical-align: top;
+    font-size: 10px;
+}
+.small {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20%;
+    vertical-align: top;
+    text-align: center;
+    color: lightblue;
+}
+.small1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20%;
+    vertical-align: text-bottom;
+    text-align: center;
+    color: lightblue;
+}
+.small2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20%;
+    vertical-align: text-bottom;
+    text-align: left;
+    color: lightblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.poster {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    max-width: 250px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+footer {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70%;
+    text-align: center;
+    color: lightblue;
+}
